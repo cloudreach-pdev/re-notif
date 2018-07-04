@@ -54,7 +54,6 @@ const Notifs = (props) => {
   return (
     <div className={classes} >
       <TransitionGroup>
-      >
         {renderedNotifications}
       </TransitionGroup>
     </div>
